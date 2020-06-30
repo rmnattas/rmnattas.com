@@ -1,0 +1,56 @@
+baseURL = "http://rmnattas.com/"
+languageCode = "en-us"
+title = "Abdulrahman Alattas"
+theme="noteworthy"
+copyright = "© rmnattas"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=5 # articles per page
+
+[params]
+	mode="auto" # color-mode → light,dark or auto
+	featherIconsCDN=true
+	subtitle = "Minimal and Clean"
+
+    twitter = "https://twitter.com/rmnattas"
+    github = "https://github.com/rmnattas"
+    linkedin = "https://www.linkedin.com/in/rmnattas"
+
+
+
+# Main menu Items
+
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 1
+
+[[menu.main]]
+name = "Resume"
+url = "/attachments/resume.pdf"
+weight = 1
+
+
+
+# # Social Tags
+# 
+# [[params.social]]
+# name = "Twitter"
+# icon = "twitter"
+# url = "https://twitter.com/rmnattas"
+# 
+# [[params.social]]
+# name = "GitHub"
+# icon = "github"
+# url = "https://github.com/rmnattas"
+# 
+# [[params.social]]
+# name = "Linkedin"
+# icon = "linkedin"
+# url = "https://www.linkedin.com/in/rmnattas/"
+
+
