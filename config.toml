@@ -1,56 +1,82 @@
 baseURL = "http://rmnattas.com/"
 languageCode = "en-us"
 title = "Abdulrahman Alattas"
-theme="noteworthy"
+theme="hugo-coder"
 copyright = "© rmnattas"
 
-# Code Highlight
-pygmentsstyle = "monokai"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=5 # articles per page
+disqusShortname = "rmnattas"
 
 [params]
-	mode="auto" # color-mode → light,dark or auto
-	featherIconsCDN=true
-	subtitle = "Minimal and Clean"
+    author = "Abdulrahman Alattas"
+    info = "Compiler Intern"
+    description = "Abdulrahman Alattas's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
 
-    twitter = "https://twitter.com/rmnattas"
-    github = "https://github.com/rmnattas"
-    linkedin = "https://www.linkedin.com/in/rmnattas"
+    favicon_32 = "images/favicon-32x32.png"
+    favicon_16 = "images/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
 
 
 
 # Main menu Items
 
 [[menu.main]]
-name = "About Me"
-url = "/about"
-weight = 1
+    name = "About"
+    url = "/about"
+    weight = 1
 
 [[menu.main]]
-name = "Resume"
-url = "/attachments/resume.pdf"
-weight = 1
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+
+[[menu.main]]
+    name = "Resume"
+    url = "/attachments/resume.pdf"
+    weight = 1
 
 
+# # Code Highlight
+# pygmentsstyle = "monokai"
+# pygmentscodefences = true
+# pygmentscodefencesguesssyntax = true
 
-# # Social Tags
-# 
-# [[params.social]]
-# name = "Twitter"
-# icon = "twitter"
-# url = "https://twitter.com/rmnattas"
-# 
-# [[params.social]]
-# name = "GitHub"
-# icon = "github"
-# url = "https://github.com/rmnattas"
-# 
-# [[params.social]]
-# name = "Linkedin"
-# icon = "linkedin"
-# url = "https://www.linkedin.com/in/rmnattas/"
+
+# Social links
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 1
+    url = "https://twitter.com/rmnattas/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/rmnattas/"
+
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/rmnattas/"
 
 
